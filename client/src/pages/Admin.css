@@ -1,0 +1,58 @@
+div.head{
+    text-align: center;
+    margin-top:10%;
+    height: 100%;
+}
+form{
+    border: 1px solid black;
+    width:25%;
+    height: 300px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    margin-left: 40%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+label{
+    float: left;
+    margin-top: 5%;
+    margin-left: 20%;
+    font-style:oblique;
+    text-decoration:black;
+    font-weight: bolder;
+}
+
+.username{
+    border-style: groove;
+    float: left;
+    margin-left: 20%;
+    margin-top: 4%;
+    margin-bottom: 5%;
+    width: 50%;
+    height: 10%;
+}
+
+.password{
+    border-style: groove;
+    float: left;
+    margin-left: 20%;
+    margin-top: 4%;
+    margin-bottom: 5%;
+    width: 50%;
+    height: 10%;
+}
+
+input[type='submit'] {
+    width: 100%;
+    background-color: #4caf50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type='submit']:hover {
+    background-color: #45a049;
+}
